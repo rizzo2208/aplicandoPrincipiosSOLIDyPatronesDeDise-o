@@ -22,6 +22,10 @@ namespace aplicandoPrincipiosSOLIDyPatronesDeDiseño.clase
             this.codigoDeSerie = codigoDeSerie;
         }
 
+        public Robot(string material, string tipoCarga, string sistemaDeControl, string codigoDeSerie, string v1, string sistemaDeControl1, string v2, string codigoDeSerie1) : this(material, tipoCarga, sistemaDeControl, codigoDeSerie)
+        {
+        }
+
 
         //METODOS
         public abstract void getMaterial();
